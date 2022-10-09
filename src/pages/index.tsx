@@ -1,7 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { ReactElement } from "react";
+import { HomeLayout } from "src/component/Layouts/HomeLayout";
+import type { NextPageWithLayout } from "src/pages/_app";
 
-const Home: NextPage = () => {
+const Home: NextPageWithLayout = () => {
   return (
     <div>
       <Head>
@@ -13,6 +16,10 @@ const Home: NextPage = () => {
       <p className="text-red-300">aaaa</p>
     </div>
   );
+};
+
+Home.getLayout = function getLayout(page: ReactElement) {
+  return <HomeLayout>{page}</HomeLayout>;
 };
 
 export default Home;
