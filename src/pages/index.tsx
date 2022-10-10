@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import { ReactElement } from "react";
 import { HomeLayout } from "src/component/Layouts/HomeLayout";

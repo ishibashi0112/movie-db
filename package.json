@@ -12,15 +12,20 @@
     "@emotion/react": "^11.10.4",
     "@emotion/server": "^11.10.0",
     "@mantine/core": "^5.5.4",
+    "@mantine/form": "^5.5.4",
     "@mantine/hooks": "^5.5.4",
     "@mantine/next": "^5.5.4",
+    "@supabase/auth-helpers-nextjs": "^0.2.9",
+    "@supabase/auth-helpers-react": "^0.2.4",
     "@supabase/supabase-js": "^1.35.7",
     "autoprefixer": "^10.4.7",
     "next": "12.1.6",
     "postcss": "^8.4.13",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "tailwindcss": "^3.0.24"
+    "tabler-icons-react": "^1.55.0",
+    "tailwindcss": "^3.0.24",
+    "zod": "^3.19.1"
   },
   "devDependencies": {
     "@types/node": "17.0.33",
